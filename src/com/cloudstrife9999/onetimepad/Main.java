@@ -42,7 +42,7 @@ public class Main {
 	String ciphertext = new String(ctx);
 	String hexCtx = adapter.marshal(ctx);
 	
-	System.out.println("Ciphertext: " + ciphertext);
+	System.out.println("Ciphertext (might be unreadable): " + ciphertext);
 	System.out.println("Ciphertext in hex form: " + hexCtx);
     }
 
