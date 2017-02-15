@@ -4,6 +4,8 @@ import java.util.Map;
 
 import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
 
+import com.cloudstrife9999.argparser.ArgParser;
+
 public class Main {
 
     private Main() {}
